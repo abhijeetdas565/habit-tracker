@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  width: 60%;
+  height: 100vh;
+  margin: auto;
+  border-left: 50px solid;
+  border-image: linear-gradient(#ff4b1f, #1fddff) 30;
+  border-right: 50px solid ;
+}
+
+.App-nav {
+  padding: 3% 25%;
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(0.5turn, #ff4b1f, #1fddff);
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    width: 100vw;
+    border-left: 20px solid lightblue;
+    border-right: 20px solid lightblue;
+    border-bottom: 20px solid lightblue;
+    ;
+  }
+}
